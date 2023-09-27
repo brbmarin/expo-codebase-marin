@@ -10,5 +10,6 @@
       "~*": ["./app/*"]
     }
   },
-  "exclude": ["./babel.config.js"]
+  "exclude": ["./babel.config.js"],
+  "jsx": "react"
 }

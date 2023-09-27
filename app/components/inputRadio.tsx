@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import { View, StyleSheet, TouchableWithoutFeedback } from "react-native";
 
 import { Text } from "./text";
-import { Checkbox } from "./checkbox";
+//import { Checkbox } from "./checkbox";
 import { withColor } from "./communStyles/withColor";
 import { withSpacing } from "./communStyles/withSpacing";
 import { colors, ColorsKey } from "./theme";
@@ -39,7 +39,7 @@ const InputRadio: FC<InputProps> = ({
           </Text>
           {option}
         </View>
-        <Checkbox isChecked={isChecked} />
+        {/* <Checkbox isChecked={isChecked} /> */}
       </View>
     </TouchableWithoutFeedback>
   );
